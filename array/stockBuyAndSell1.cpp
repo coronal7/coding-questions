@@ -4,7 +4,7 @@
 
 int maxProfit(int prices[], int n){
     int max_profit = 0;
-    int min_price = INT_MIN;
+    int min_price = INT_MAX;
 
     for (int i=0;i<n;i++){
         if(prices[i]<min_price)
